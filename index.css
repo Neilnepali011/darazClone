@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightseagreen;
+    color: #fff;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+    border: 2px solid #fff;
+    padding: 10px 25px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color .5s, color .2s;
+}
+
+a:hover {
+    background-color: #fff;
+    color: tomato;
+}
